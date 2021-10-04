@@ -2,7 +2,10 @@
 library = "shiny"
 library = "shinydashboard"
 library = "shinyjs"
-library = "tidyverse"
+library = "ggplot2"
+library = "dplyr"
+library = "readr"
+library = "zoo"
 library = "forecast"
 library = "plotly" 
 
