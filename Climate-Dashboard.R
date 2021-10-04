@@ -1,13 +1,13 @@
 # Libraries
-library = "shiny"
-library = "shinydashboard"
-library = "shinyjs"
-library = "ggplot2"
-library = "dplyr"
-library = "readr"
-library = "zoo"
-library = "forecast"
-library = "plotly" 
+library("shiny")
+library("shinydashboard")
+library("shinyjs")
+library("ggplot2")
+library("dplyr")
+library("readr")
+library("zoo")
+library("forecast")
+library("plotly")
 
 # Load data ----
 dat <- read_csv(file = "KA_Climate_year_clean.csv") #%>%
